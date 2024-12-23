@@ -1,0 +1,7 @@
+{
+    "graphviz_path": "/usr/local/bin/plantuml",
+    "package_name": "requests",
+    "output_file": "dependencies.puml",
+    "max_depth": 2,
+    "repository_url": "https://pypi.org/project/requests/"
+}

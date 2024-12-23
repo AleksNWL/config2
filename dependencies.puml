@@ -1,0 +1,17 @@
+@startuml
+"requests" -> "charset-normalizer";
+"requests" -> "idna";
+"idna" -> "ruff";
+"idna" -> "mypy";
+"idna" -> "pytest";
+"idna" -> "flake8";
+"requests" -> "urllib3";
+"urllib3" -> "brotli>=1.0.9;";
+"urllib3" -> "brotlicffi>=0.8.0;";
+"urllib3" -> "h2<5,>=4;";
+"urllib3" -> "pysocks!=1.5.7,<2.0,>=1.5.6;";
+"urllib3" -> "zstandard>=0.18.0;";
+"requests" -> "certifi";
+"requests" -> "PySocks";
+"requests" -> "chardet";
+@enduml
